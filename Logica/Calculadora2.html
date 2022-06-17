@@ -1,0 +1,54 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var escolha = prompt("Entre com o tipo de tabuada +, -, *, /.");
+
+    var n1 = parseInt(prompt("Digite o numero 1."));
+
+    var n2 = parseInt(prompt("Digite o numero 2."));
+
+    var totalsoma = (n1 + n2);
+
+    var totalsubtração = (n1 - n2);
+
+    var multiplicação = (n1 * n2);
+
+    var divisão = (n1 / n2);
+
+
+    if (escolha == "+") {
+
+        mostra(totalsoma);
+
+    }
+    if (escolha == "-") {
+
+        mostra(totalsubtração);
+
+    }
+    if (escolha == "*") {
+
+        mostra(multiplicação);
+
+    }
+    if (escolha == "/") {
+
+        mostra(divisão);
+
+    }
+
+
+</script>

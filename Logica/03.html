@@ -1,0 +1,22 @@
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var n = parseInt(prompt("Entre com a data limite"));
+
+    var contador = 1;
+    while (contador <= n) {
+        mostra(contador);
+        contador = contador + 1;
+    }
+    mostra("FIM");
+
+</script>

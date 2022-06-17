@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numeros = parseInt(prompt("Digite o numero limite dos numeros Pares"));
+    var acumulador = 0;
+
+    // var contador = 2;
+
+    // while(contador <= numeros) {
+    //     acumulador += contador 
+    //     contador += 2;
+    // }
+
+    for(var cont = 0; cont<=numeros; cont+=2)
+        acumulador += cont; 
+
+
+    mostra(acumulador);
+    
+</script>
