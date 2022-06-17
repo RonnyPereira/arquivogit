@@ -13,9 +13,14 @@ body {
 
 }
 
-h1 {
+.tituloprincipal{
+padding-left: 20px;
 
-    text-align: center
+}
+
+.titulocentralizado {
+
+    text-align: center;
 }
 
 p {
@@ -41,10 +46,6 @@ padding: 20px;
     
 }
 
-h2 {
-
-    text-align: center;
-}
 
 ul {
 display: inline-block;

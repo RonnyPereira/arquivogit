@@ -1,0 +1,20 @@
+header {
+        background: #BBBB;
+
+}
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 15px;  /* Criar um espaço para direira */
+}
+
+nav a {
+text-transform: uppercase;  /* Colocar o texto em Maiusculo    */
+color: #000000;   /* Alterar a cor do texto  */
+font-weight: bolder;  /* Colocar a fonte em negrito  */
+font-size: 22px;   /* Aumentar o tamanho da fonte  */
+text-decoration: nome;  /* nenhuma decoração no texto, essa funcao que deixa o texto sublinhado */
+
+
+}
