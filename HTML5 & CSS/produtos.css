@@ -1,12 +1,25 @@
 header {
-        background: #BBBB;
+        background: #BBBB;  /* Colocar um fundo de cor no cabecalho da pagina */
 
 }
 
-nav li {
+.caixa {
 
-    display: inline;
-    margin: 0 0 0 15px;  /* Criar um espaço para direira */
+    width: 940px; /* largura fixa da caixa de lista */
+}
+
+nav {
+
+position: absolute; /* libera a movimentacao do item */
+top: 110px; /* subiu 110x do ponto inicial */
+right: 0;  /* levo o item inicial ao maximo para direita */
+
+}
+
+nav li { /* nevegação e edicao dos itens da lista */
+
+    display: inline; /* colocar o itens da lista em linhas, pois no caso os itens estao um em baixo do outro*/
+    margin: 0 0 0 15px;  /* criar um espaço para esquerda dos itens da lista */
 }
 
 nav a {
