@@ -6,15 +6,19 @@
     <title>Produtos - Barnearia Alura </title> <!-- titulo da aba do navegador -->
     <link rel="stylesheet" href="reset.css"> <!-- Anular as configuraçoes que os site fazem  -->
     <link rel="stylesheet" href="produtos.css"> <!-- link para puxar os comandos css -->
+    <link rel="stylesheet" href="reset.css"> <!-- tirar todas as config de ajuste de pagina do navegador -->
 </head>
 
 
 
 <body>
-    <div>
-        <header>
+
+    <header>
+        <div class="caixa">
+            <!-- essa classe esta transformando em uma caixa essa area -->
             <h1> <img src="logo.png"></h1> <!-- logo do cabecalho -->
             <nav>
+                <!-- navegação para controlar no arquivo css -->
                 <ul>
                     <li><a href="index.html">Home</a></li> <!-- itens da lista com cabeçalho externo -->
                     <li><a href="produtos.html">Produtos</a></li>
@@ -22,8 +26,37 @@
 
                 </ul>
             </nav>
-    </div>
+        </div>
     </header>
+
+    <main>
+
+        <ul class="produtos"> <!--classe criada para movimentar a lista -->
+            <li>
+                <h2>Cabelo</h2>
+                <img src="cabelo.jpg"> 
+                <p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir.</p>
+                <p class="produto-preco">R$ 25,00</p>
+            </li>
+
+            <li>
+                <h2>Barba</h2>
+                <img src="barba.jpg">
+                <p class="produto-descricao">Corte e desenho profissional de barba e por último</p>
+                <p class="produto-preco">R$ 18,00</p>
+
+            </li>
+
+            <li>
+                <h2>Cabelo + Barba</h2>
+                <img src="cabelo+barba.jpg">
+                <p class="produto-descricao">Pacote completo de cabelo e barba.</p>
+                <p class="produto-preco">R$ 35,00</p>
+            </li>
+
+        </ul>
+
+    </main>
 
 </body>
 
