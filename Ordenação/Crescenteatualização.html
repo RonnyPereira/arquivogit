@@ -1,0 +1,25 @@
+<script>
+
+    var valores = [];
+
+    var quantidade = parseInt(prompt(" Digite a quantidade de numeros para analisar?"));
+
+
+    for (var contador = 1; contador <= quantidade; contador++) {
+
+        var numeros = parseInt(prompt(" Digite numero" + contador + "?"))
+
+        valores.push(numeros);
+    }
+
+    function ordenaNum(a, b) {
+        return a - b;
+    }
+
+    valores.sort(ordenaNum);
+    for (i = 0; i < valores.length; i++) {
+
+        document.write(valores[i] + "<br>");
+    }
+
+</script>
