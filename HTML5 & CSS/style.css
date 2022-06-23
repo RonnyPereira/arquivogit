@@ -1,0 +1,142 @@
+header {
+    background: #BBBB;
+    /* Colocar um fundo de cor no cabecalho da pagina */
+    padding: 20px 0;
+}
+
+.caixa {
+    margin: 0 auto;
+    /* 0 pra cima e para baixo e auto na esqueda e direito */
+    position: relative;
+    width: 940px;
+    /* largura fixa da caixa de lista */
+
+}
+
+nav {
+
+    position: absolute;
+    /* libera a movimentacao do item */
+    top: 110px;
+    /* subiu 110x do ponto inicial */
+    right: 0;
+    /* levo o item inicial ao maximo para direita */
+}
+
+nav li {
+    /* nevegação e edicao dos itens da lista */
+
+    display: inline;
+    /* colocar o itens da lista em linhas, pois no caso os itens estao um em baixo do outro*/
+    margin: 0 0 0 15px;
+    /* criar um espaço para esquerda dos itens da lista */
+}
+
+nav a {
+    text-transform: uppercase;
+    /* Colocar o texto em Maiusculo    */
+    color: #000000;
+    /* Alterar a cor do texto  */
+    font-weight: bolder;
+    /* Colocar a fonte em negrito  */
+    font-size: 22px;
+    /* Aumentar o tamanho da fonte  */
+    text-decoration: nome;
+    /* nenhuma decoração no texto, essa funcao que deixa o texto sublinhado */
+}
+
+nav a:hover {
+    color: #C78C19
+        /* coloca uma cor quando eu seleciono os itens que esta marcado com a, ou seja os link dentro desse a */
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    /*sublinha quano coloca o mouse em cima */
+
+}
+
+
+.produtos {
+    /* comando para centralizar a lista*/
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    /* classe pra controlar os produtos */
+    display: inline-block;
+    /* colocando os produtos em linha um do lado do outro*/
+    text-align: center;
+    width: 30%;
+    /* tamanho de cada um item da lista*/
+    vertical-align: top;
+    /* background: #cccccc; depois de arrumar o item da lista podemos tirar essa borda cinza       */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    /* aqui tem a definição das bordas tamanho, tipo e cor*/
+    border-radius: 10px;
+    /* comando para deixar a borda redonda*/
+}
+
+.produtos li:hover {
+
+    border-color: #C78C19;
+    /* com a fanca hover mexe na borba quando passa o mouse por cima*/
+
+}
+
+.produtos li:active {
+    border-color: #088C19;
+    /* ativa a borda quando o mouse esta em cima*/
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+    /* altera o tamanho da fonte do titulo quando o mouse esta por cima/
+    
+    }
+    
+
+
+.produtos h2 {
+    font-size: 30px; /* tamanho do titulo da lista */
+    font-weight: bold;
+    /* colocar o item em negrito */
+}
+
+.produto-descricao {
+    font-size: 18px;
+
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+
+    text-align: center;
+    /* colocando o Rodape no centro*/
+    background: url("bg.jpg");
+    /* colocando uma imagem de fundo no Rodape*/
+    padding: 40px 0;
+
+
+}
+
+.copyright {
+
+    color: #FFFFFF;
+    /* cor da fonte do RodaPe Rodape*/
+    font-size: 13px;
+    margin: 20px;
+
+}
