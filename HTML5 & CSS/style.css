@@ -158,7 +158,8 @@ form {
 
 }
 
-form label, form p{
+form label,
+form legend {
 
     display: block;
     font-size: 20px;
@@ -174,7 +175,116 @@ form label, form p{
     width: 50%;
 }
 
-.checkbox{
+.checkbox {
     margin: 20px 0;
+
+}
+
+.enviar {
+    /* mudança de estilo do botao enviar */
+    width: 40%;
+    /* aumentar o tamanho */
+    padding: 15px 0;
+    /* aumentar o espacamento interno */
+    background: orange;
+    /* cor de fundo */
+    color: white;
+    /* cor do texto */
+    font-weight: bold;
+    /* fonte em negrito */
+    font-size: 18px;
+    /* tamanho da fonte*/
+    border: none;
+    /* botao sem borda*/
+    border-radius: 5px;
+    /* borda aredondada*/
+    transition: 1s all;
+    /*  tempo do efeito de quando o mouse passa por cima*/
+    cursor: pointer;
+    /* curso do mouse vira um maozinha*/
+
+
+
+}
+
+.enviar:hover {
+    /* efeito de quando passa o mouse por cima*/
+    background: darkorange;
+    /* cor do efeito*/
+    transform: scale(1.2);
+    /* aumento da fonte em 20% quando passar o mouse por cima*/
+
+
+}
+
+
+table {
+
+    margin: 20px 0 40px;
+
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+
+}
+
+td,
+th {
+
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/******************************************* A partir daqui estamos falando de pagina inicial*******************/
+
+.banner {
+    width: 100%;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    /****tamanho da fonte sera o dobro do padrao**/
+    margin: 0 0 1em;
+    clear: left;
+
+
+}
+
+.principal p {
+
+    margin: 0 0 1em;
+
+}
+
+.principal strong {
+
+    font-weight: bold;
+}
+
+.principal em {
+
+    font-style: italic;
+}
+
+.utensilios {
+
+    width: 120px;
+    float: left;
+    /****faz a imagem flutuar na tela para que o texto fique em volta**/
+    margin: 0 20px 20px 0;
+
+
+
+}
+
+
+
+.imagembeneficios {
+    width: 60%;
 
 }
