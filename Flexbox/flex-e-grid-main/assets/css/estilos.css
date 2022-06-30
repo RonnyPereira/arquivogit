@@ -1,0 +1,42 @@
+@font-face {      /* serve para puxar os icones para sucstituir as palavras por icones      */
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body{ /* corpo da pagina           */
+
+background-color:#1D232A ;   /* fundo da pagina         */
+
+font-family: 'Open Sans','icones', sans-serif;  /* Fonte da Pagina        */
+color: #FFFFFF;  /* Cor da fonte        */
+
+}
+
+.cabecalho{  /* transforma o cavecalho em uma caixa       */
+    
+    display: flex;
+    justify-content: space-between; /* centraliza os itens do cabecalho deixando um espaco  */
+    align-items: center;  /* centraliza os botoes do cabecalho  */
+    background-color: #15191C;
+    padding: 8px 16px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.16);
+
+} 
+
+.cabecalho__menu i::before{   /* chamando a imagem do meno do cabecalho  */
+
+    content: "\e904";
+    font-size: 24px;
+}
+
+.cabecalho__notificacao i::before{   /* chamando a imaegm de notificacao do cabecalho */
+   
+    content:"\e906" ;
+    font-size: 34px;
+
+}
+
+.cabecalho__logo{ /* altera o temanho do logo */
+
+    width: 40px;
+}
