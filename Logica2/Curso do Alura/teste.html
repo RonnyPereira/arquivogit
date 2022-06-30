@@ -1,0 +1,25 @@
+<script>
+
+
+    
+var elementos = []; 
+var maior = [];
+var menor = [];
+var num = 0;
+    
+while (num < 12) {
+elementos.push(parseInt(prompt("Digite um numero inteiro:")));
+num++;
+}
+
+for (var i = 2; i <= elementos.length; i+2) {
+if (elementos[i] > 50)
+  maior.push(elementos[i]);
+else
+  menor.push(elementos[i]);
+}
+    
+console.log("Existem " + maior.length + " números que maiores que 50!\n");
+console.log("Existem " + menor.length + " números menores que 50!");
+
+</script>

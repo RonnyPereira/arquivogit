@@ -1,0 +1,34 @@
+<script>
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+/* 18) Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela
+poderá ou não votar este ano (não é necessário considerar o mês em que a pessoa nasceu).      */
+
+
+var nascimento = parseInt(prompt("digite o ano do seu nascimento: "));
+
+var anoatual = parseInt(prompt("digite o ano atual: "));
+
+var idade = (anoatual - nascimento);
+
+
+if(idade>=18){
+
+    mostra("Sua idade e: " + idade + "Anos voce pode votar");
+}else{
+
+    mostra("Sua idade e: " + idade + " voce nao pode votar");
+}
+
+
+
+
+
+
+
+
+
+</script>

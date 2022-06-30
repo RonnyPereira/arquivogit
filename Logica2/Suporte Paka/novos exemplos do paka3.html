@@ -1,0 +1,42 @@
+<script>
+
+    var vet = [1,2,3,4,5,100,300,500,280,237,520,10,12,40,91,95,999,48];
+    N = vet.length;
+    
+    /*
+    document.write (vet);
+    
+    var soma = 0;
+    
+    for(i=0;i<N;i++) {
+        soma = soma + vet[i];
+    
+    }
+    
+    document.write ("<br>"+soma);
+    */
+    
+    var result = [];
+    var j=0;
+    
+    /*
+    
+    for(i=0;i<N;i++) {
+        if((vet[i] % 2) == 1)
+            document.write(vet[i]+", ");	*/
+    /*
+    for(i=0;i<N;i++) {
+        if((vet[i] % 2) == 1)
+            result.push(vet[i]);*/
+    
+    for(i=0 ;i<N;i++) {
+        if((vet[i] % 2) == 1) {
+            result[j] = vet[i];
+            j++;
+        }
+    }
+    
+    document.write (result);
+    
+    
+    </script>

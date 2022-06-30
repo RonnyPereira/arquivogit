@@ -1,0 +1,33 @@
+<script>
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    /*Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos
+brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total
+de eleitores. */
+
+    var eleitores = parseInt(prompt("Digite o total de Eleitores de sua cidade:"));
+    var bracos = parseInt(prompt("Digite a quantidade de votos brancos:"));
+    var nulos = parseInt(prompt("Digite a quantidade de votos nulos:"));
+    var validos = parseInt(prompt("Digite o total de votos validos:"));
+
+
+
+        rvalidos = (validos / eleitores) * 100;
+        rbrancos = (bracos / eleitores) * 100;
+        rnulos = (nulos / eleitores) * 100;
+
+        mostra("persentual de votos validos: " + rvalidos + "%")
+
+        mostra("persentual de votos brancos: " + rbrancos + "%")
+
+        mostra("persentual de votos nulos: " + rnulos + "%")
+
+
+
+
+
+
+</script>

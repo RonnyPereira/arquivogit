@@ -1,0 +1,30 @@
+<script>
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+/*  ) O custo de um carro novo ao consumidor é a soma do custo de fábrica com a porcentagem do
+distribuidor e dos impostos (aplicados ao custo de fábrica). Supondo que o percentual do distribuidor
+seja de 28% e os impostos de 45%, escrever um algoritmo para ler o custo de fábrica de um carro,
+calcular e escrever o custo final ao consumidor.      */
+
+var custofabrica =  1000;
+
+var custodistribuidor = 28;
+
+var imposto = 45;
+
+var cdistribuidor = (custofabrica*custodistribuidor)/100;
+
+var cimposto = (custofabrica*imposto)/100;
+
+var valorfinal = (cdistribuidor+cimposto)+custofabrica;
+
+
+
+
+document.write(" O valor final do carro e: " + valorfinal)
+
+
+</script>

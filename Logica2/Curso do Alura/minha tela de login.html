@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    var loginCadastro = ("Ronny");
+    var pwCadastro = ("qwer")
+
+    var maxtentativa = 3;
+    var tentativa = 1;
+
+    while (tentativa <= maxtentativa) {
+
+        var LoginInformado = prompt("Digite seu Login:");
+        var pwInformado = prompt("Digite sua senha:")
+
+        if (loginCadastro == LoginInformado && pwCadastro == pwInformado) {
+
+            alert(" Benvido ao sistema" + login);
+
+            login = maxtentativa;
+        }
+        else {
+
+            if (tentativa = 3) {
+
+                alert("Acabaou o numemro de tentativas");
+            }
+            else {
+
+                alert(" login invalido tente mais tarde")
+            }
+
+
+
+        }
+
+        tentativa = tentativa + 1
+
+    }
+
+
+
+</script>

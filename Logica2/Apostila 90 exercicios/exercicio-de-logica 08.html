@@ -1,0 +1,29 @@
+<script>
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+/*  11) Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês,
+mais uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele
+efetuadas. Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas
+vendas, o salário fixo e o valor que ele recebe por carro vendido. Calcule e escreva o salário final do
+vendedor.       */
+
+var salario = 1000;
+
+var comissao =5;
+
+var vendidos = 2
+
+var comissaocarro = (salario*comissao)/100
+
+var totalcomissao = comissaocarro*vendidos
+
+var salariomes = totalcomissao+salario
+
+mostra( "O salrio do mes e: " +salariomes)
+
+
+
+</script>

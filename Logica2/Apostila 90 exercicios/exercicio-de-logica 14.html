@@ -1,0 +1,27 @@
+<script>
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+/*16) As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem
+compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e
+escreva o custo total da compra.    */
+
+var macas = parseInt(prompt("Quantidades de macas que voce quer comprar "));
+
+if(macas >=12){
+
+var v12 = macas*1;
+
+mostra("total a pagar: R$" +v12)
+
+}else{
+
+var v12 = macas*1.3;
+
+mostra("total a pagar: R$" +v12)
+}
+
+
+</script>

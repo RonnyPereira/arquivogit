@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<script>
+    // function pulaLinha() {
+    //     document.write("<br>");
+    // }
+
+    function mostra(frase) {
+        document.write(frase +"<br>");
+    }
+        
+
+
+    var maior=0;
+    
+    for(var i=1;i<=5;i++) {
+
+        var numero  = parseInt(prompt("Digite o numero "+ i +": "));
+
+        if(numero > maior)
+            maior  = numero;
+
+    }
+
+    mostra("O maior é: "+maior);
+
+
+</script>
