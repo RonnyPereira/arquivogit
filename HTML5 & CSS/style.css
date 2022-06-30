@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBBB;
     /* Colocar um fundo de cor no cabecalho da pagina */
@@ -146,8 +150,8 @@ footer {
 main {
     /* centralizar os formularios */
 
-    width: 940px;
-    margin: 0 auto;
+    /* width: 940px;
+    margin: 0 auto;*/
 
 }
 
@@ -242,7 +246,6 @@ th {
 
 .banner {
     width: 100%;
-
 }
 
 .titulo-principal {
@@ -251,8 +254,27 @@ th {
     /****tamanho da fonte sera o dobro do padrao**/
     margin: 0 0 1em;
     clear: left;
+    /* color: rgb(0,0,0,0.3);  ****mudando a opacidade do titulo**/
+}
 
 
+
+/*
+
+.titulo-principal:before {
+    content: "[";
+}
+
+.titulo-principal:after {
+    content:"]"
+}
+*/
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -272,19 +294,100 @@ th {
 }
 
 .utensilios {
-
     width: 120px;
     float: left;
     /****faz a imagem flutuar na tela para que o texto fique em volta**/
     margin: 0 20px 20px 0;
+}
 
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+    /****mudanca de cor no blackground do mapa entre branco e cinza**/
+}
+
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.mapa p {
+
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+
+.beneficios {
+    padding: 3em 0;
+    background: #88888888;
+
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    /****pseudo elemento para selecionar o primeiro item da lista de beneficios**/
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "✭"
+
+}
+
+.imagem-beneficios {
+    width: 60%;
+    opacity: 1;
+    /****estou vendo a imagem em 100%**/
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
 
 
 }
 
+.imagem-beneficios:hover {
+    opacity: 0.3;
+    /****quando passar o mouse por cima so vou ver 30%**/
 
 
-.imagembeneficios {
-    width: 60%;
+}
 
+.video {
+    width: 560px;
+    /****Controlar o tamanho da classe video e centralizar**/
+    margin: 2em auto;
+}
+
+
+@media screen and (max-width: 480px) {     /****Ajuste para visualização no celular**/
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+        width: auto;
+    }
+
+}
+
+h1 {
+
+    text-align: center;
+}
+
+nav{
+
+    position: static;
 }
