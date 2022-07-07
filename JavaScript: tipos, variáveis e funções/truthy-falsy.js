@@ -19,15 +19,15 @@ const contaPaga = false
 
 //undefined
 
-let minhaVar;
-let varNull = null;
+// let minhaVar;
+// let varNull = null;
 
-let numero =3;
-let texto ="Alura";
+// let numero =3;
+// let texto ="Alura";
 
 
-console.log(typeof minhaVar);
-console.log(typeof varNull);
+// console.log(typeof minhaVar);
+// console.log(typeof varNull);
 
 
 

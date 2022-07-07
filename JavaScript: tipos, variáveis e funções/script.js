@@ -8,8 +8,10 @@
 
 //console.log(area);
 
+
 //var area;
 
+//******************************************************* *
 
 //let forma = "retangulo"
 //let altura = 5;
@@ -22,6 +24,8 @@
 //    area = (altura * comprimento) / 2
 //}
 //console.log(area)
+
+//******************************************************* *
 
 const forma = "quadrado"
 const altura = 5;
