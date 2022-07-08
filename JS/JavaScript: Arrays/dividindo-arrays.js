@@ -1,3 +1,6 @@
+//Dividindo o arrays em dois 
+
+
 const nomes = ['João','Juliana','Ana','Caio','Lara','Marjorie','Guilherme','Aline','Fabina','Adre','Carlos','Paulo','Bia','Vivian','Isabela','Vinicius','Renan','Renata','Daisy','Camilo']
 
 const sala1 = nomes.slice(0,nomes.length/2)
