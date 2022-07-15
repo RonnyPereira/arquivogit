@@ -1,6 +1,6 @@
 //Depois de calcular a media dos alunos, precisamos mostrar quem esta reprovado entre os alunos:
 
-// trabalho da funcao filter
+//trabalho da funcao filter
 
 const nomes = ['Ana','Marcos','Maria','Mauro']
 
