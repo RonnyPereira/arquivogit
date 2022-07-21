@@ -1,5 +1,5 @@
-//Adicionar uma propriedade que permita "acoes", para que os clientes que estao cadastrados
-// consigam fazer operacoes bancarias
+//Percorrer um objeto e extrair informações basicas do cliente em um formato mais legivel
+//e de forma automatizad para fornecer  outros departamentos do banco
 
 const cliente = {
     nome: "Andre",
@@ -26,7 +26,18 @@ const cliente = {
         }
 
     }
-    console.log(cliente.saldo)
-    cliente.depositar(30)
-    console.log(cliente.saldo)
-    
+
+    let relatorio="";
+
+    for (let info in cliente){
+        if(typeof cliente[info]=== "object" || typeof cliente[info] ==="function")
+        {
+           continue 
+        }else{
+            relatorio += `${info} ==> ${cliente[info]}
+            `
+
+        }
+    }
+
+    console.log(relatorio)
