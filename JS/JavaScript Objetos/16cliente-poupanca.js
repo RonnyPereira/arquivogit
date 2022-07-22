@@ -11,17 +11,14 @@ function cliente(nome, cpf, email, saldo) {
     }
 }
 
-
 function clientePoupanca(nome, cpf, email, saldo, saldoPoup) {
     cliente.call(this, nome, cpf, email, saldo)
     this.saldoPoupsaldoPoup = saldoPoup
 }
 
-
 const ju = new clientePoupanca("Ju", "564564564564", "ju@email.com", 100, 200)
 
 console.log(ju)
-
 
 clientePoupanca.prototype.depositaPoup = function (valor) {
 
